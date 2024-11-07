@@ -60,6 +60,7 @@ public class MyUI extends UI {
             } catch (BRException ex) {
                 Label labelSalarioBruto = new Label(ex.getMessage());
                 salarioBrutoContenedor.addComponent(labelSalarioBruto);
+
             }
         });
 
