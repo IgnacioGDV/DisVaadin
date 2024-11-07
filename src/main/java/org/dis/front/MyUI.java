@@ -26,6 +26,7 @@ public class MyUI extends UI {
         TextField etiqueta = new TextField();
         etiqueta.setCaption(texto);
         return etiqueta;
+
     }
 
     @Override
